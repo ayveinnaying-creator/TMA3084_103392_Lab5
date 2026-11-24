@@ -16,3 +16,5 @@ Rejected Changes:
 
 Global variable solution
 Reason: Provider separates UI and state management while following Flutter best practices.
+
+Last Updated: 18/11/2026
