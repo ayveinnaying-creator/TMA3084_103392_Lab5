@@ -19,29 +19,22 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: [
             const Icon(Icons.school, size: 120, color: Colors.blue),
-
             const SizedBox(height: 20),
-
             const Text(
               "Welcome to StudentHub",
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
-
             const SizedBox(height: 10),
-
             const Card(
               child: ListTile(
                 title: Text("Total Students"),
                 trailing: Text("10"),
               ),
             ),
-
             const Card(
               child: ListTile(title: Text("Programmes"), trailing: Text("3")),
             ),
-
             const SizedBox(height: 20),
-
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -53,9 +46,7 @@ class HomePage extends StatelessWidget {
               },
               child: const Text('View Students'),
             ),
-
             const SizedBox(height: 10),
-
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -67,9 +58,7 @@ class HomePage extends StatelessWidget {
               },
               child: const Text('Student Records'),
             ),
-
             const SizedBox(height: 10),
-
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -81,9 +70,7 @@ class HomePage extends StatelessWidget {
               },
               child: const Text('Programmes'),
             ),
-
             const SizedBox(height: 10),
-
             ElevatedButton(
               onPressed: () {
                 Navigator.push(

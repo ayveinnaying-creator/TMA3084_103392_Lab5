@@ -57,16 +57,13 @@ class _StudentRecordsPageState extends State<StudentRecordsPage> {
           sortColumnIndex: sortColumnIndex,
           columns: [
             const DataColumn(label: Text('Matric No')),
-
             DataColumn(
               label: const Text('Name'),
               onSort: (columnIndex, ascending) {
                 sortByName(ascending);
               },
             ),
-
             const DataColumn(label: Text('Programme')),
-
             DataColumn(
               label: const Text('CGPA'),
               numeric: true,
@@ -75,7 +72,6 @@ class _StudentRecordsPageState extends State<StudentRecordsPage> {
               },
             ),
           ],
-
           rows: records.map((student) {
             return DataRow(
               cells: [

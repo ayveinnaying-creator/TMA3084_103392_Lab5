@@ -7,11 +7,9 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("About")),
-
       body: Stack(
         children: [
           Container(height: 220, color: Colors.blue),
-
           Positioned(
             top: 120,
             left: 20,
@@ -21,7 +19,6 @@ class AboutPage extends StatelessWidget {
               child: Icon(Icons.person, size: 50),
             ),
           ),
-
           const Positioned(
             top: 230,
             left: 20,
